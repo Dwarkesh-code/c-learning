@@ -23,7 +23,7 @@ int main(){
         
         board[col][row] = currentplayer;    
         if(i>5){
-            for(int a {0}; a>3; ++a){
+            for(int a {0}; a<3; ++a){
                 if(board[a][0]==board[a][1] and board[a][1]== board[a][2]){
                     win = board[a][0];
                     exit = true;
